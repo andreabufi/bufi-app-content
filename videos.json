@@ -1,18 +1,148 @@
 {
-  "version": 1,
+  "version": 2,
   "videos": [
-    { "title": "Time", "youtubeID": "SFFriFsS2j8" },
-    { "title": "Drive", "youtubeID": "0AJgz5Fi3Zg" },
-    { "title": "AI Vision", "youtubeID": "et6AQCqGdnQ" },
-    { "title": "Stone", "youtubeID": "rSPjO-dHESU" },
-    { "title": "Music", "youtubeID": "3mP0o443AsU" },
-    { "title": "Power", "youtubeID": "dD4reBGApCo" },
-    { "title": "Ink", "youtubeID": "OS3i1c9KlTA" },
-    { "title": "Fight", "youtubeID": "b6PTzpdcGfg" },
-    { "title": "Wild", "youtubeID": "q5FV1gpe_Fw" },
-    { "title": "Love", "youtubeID": "j6kqBWGSL5o" },
-    { "title": "Series", "youtubeID": "Te4WBcxwnvU" },
-    { "title": "Highlights", "youtubeID": "c4sx3GvcSqg" },
-    { "title": "Identity", "youtubeID": "Em6IHSzgLSs" }
+    {
+      "title": "Time",
+      "videoURL": "https://youtu.be/SFFriFsS2j8",
+      "youtubeID": "SFFriFsS2j8",
+      "year": "2026",
+      "role": "Director",
+      "project": "AI Cinematic Short",
+      "client": "Personal Project",
+      "category": "AI / Brand",
+      "description": "An AI-generated cinematic short that explores the timeless allure of iconic design through the lens of artificial intelligence."
+    },
+    {
+      "title": "Drive",
+      "videoURL": "https://youtu.be/0AJgz5Fi3Zg",
+      "youtubeID": "0AJgz5Fi3Zg",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Brand Film",
+      "client": "Personal Project",
+      "category": "Brand",
+      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting, capturing the car in motion with smooth footage shot using an onboard camera. The opening sequence highlights the vehicle's details, emphasizing its design, lines, and technology. Fast-paced and engaging editing conveys a captivating, modern atmosphere — showcasing the Audi Q3's performance, style, and innovation. A blend of elegance and dynamism for car enthusiasts and fans of high-quality audiovisual productions."
+    },
+    {
+      "title": "AI Vision",
+      "videoURL": "https://youtu.be/et6AQCqGdnQ",
+      "youtubeID": "et6AQCqGdnQ",
+      "year": "2026",
+      "role": "Creator",
+      "project": "Experimental",
+      "client": "Personal Project",
+      "category": "Experimental",
+      "description": "A unique visual experience, created by combining cinema, digital art, and artificial intelligence: impossible streets, moving museums, surreal creatures, and scenes that defy all logic. This video is a journey through chaos and order, light and shadow, the sacred and the profane. Perfect for those who love digital art, surrealism, and visual storytelling."
+    },
+    {
+      "title": "Stone",
+      "videoURL": "https://youtu.be/rSPjO-dHESU",
+      "youtubeID": "rSPjO-dHESU",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Corporate Video",
+      "client": "CITCO",
+      "category": "Brand",
+      "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail, technological innovation, and international vision. The production process is transformed into an emotional experience, celebrating a material with a history spanning millennia that is reborn as design excellence."
+    },
+    {
+      "title": "Music",
+      "videoURL": "https://youtu.be/3mP0o443AsU",
+      "youtubeID": "3mP0o443AsU",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Music Video",
+      "client": "Independent Artist",
+      "category": "Music",
+      "description": "A road trip storytelling music video that captures the rhythm of motion and the poetry of open landscapes. Shot with cinematic precision, the video weaves together intimate moments and sweeping vistas, transforming the journey itself into the heartbeat of the song. A visual companion built on freedom, texture, and emotional resonance."
+    },
+    {
+      "title": "Power",
+      "videoURL": "https://youtu.be/dD4reBGApCo",
+      "youtubeID": "dD4reBGApCo",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Video Presentation",
+      "client": "Motorparts",
+      "category": "Brand",
+      "description": "Discover the Motorparts stand at EICMA Milan, the international event dedicated to the world of two-wheel vehicles. An exhibition area rich in innovation, technology, and design that celebrates the passion for motorcycles. This video offers a close-up exploration of the stand, focusing on the latest innovations: accessories, high-quality components, and cutting-edge solutions for the most demanding riders. From technical details to unique designs, Motorparts confirms itself as a benchmark for two-wheel enthusiasts."
+    },
+    {
+      "title": "Ink",
+      "videoURL": "https://youtu.be/OS3i1c9KlTA",
+      "youtubeID": "OS3i1c9KlTA",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional Video",
+      "client": "Tattoo Studio",
+      "category": "Underground",
+      "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship. Combining handheld camerawork with technically precise compositions, the video captures the authentic atmosphere of tattoo culture through a confident, professional editing style. Every frame reflects the intimate ritual of body art — where ink, skin, and identity converge into a singular visual statement."
+    },
+    {
+      "title": "Fight",
+      "videoURL": "https://youtu.be/b6PTzpdcGfg",
+      "youtubeID": "b6PTzpdcGfg",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional Video",
+      "client": "Speri Fight Club",
+      "category": "Sports",
+      "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination, refining his skills in one of the most prestigious environments for boxing. Every training session is a battle, every challenge a step toward his ultimate goal: surpassing his own limits and leaving a mark in the world of MMA."
+    },
+    {
+      "title": "Wild",
+      "videoURL": "https://youtu.be/q5FV1gpe_Fw",
+      "youtubeID": "q5FV1gpe_Fw",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Short Film Trailer",
+      "client": "Scuderia Gardesana",
+      "category": "Nature",
+      "description": "A visual journey that celebrates the beauty, strength, and grace of the horses raised by Scuderia Gardesana — a tribute to the passion and care that accompany every step of this journey."
+    },
+    {
+      "title": "Love",
+      "videoURL": "https://youtu.be/j6kqBWGSL5o",
+      "youtubeID": "j6kqBWGSL5o",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Wedding Trailer",
+      "client": "Private Commission",
+      "category": "Wedding",
+      "description": "A cinematic wedding trailer crafted to capture the depth and intimacy of two souls becoming one. Through a refined visual approach, the film transforms genuine emotion into timeless imagery — preserving the spontaneous moments, the meaningful glances, and the quiet beauty of love in its purest form. A professional production where every frame becomes a memory worth revisiting."
+    },
+    {
+      "title": "Series",
+      "videoURL": "https://youtu.be/Te4WBcxwnvU",
+      "youtubeID": "Te4WBcxwnvU",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Promotional Video — Episodes",
+      "client": "Editorial",
+      "category": "Documentary",
+      "description": "'LILLY — Episode 01' is the first chapter of a visual series that portrays Lidia's everyday life through an intimate and authentic lens. Shot entirely with handheld camerawork, the video stands out for its underground style — built on spontaneous framing, realistic details, and strong emotional impact. A symbolic element accompanies the narrative: a giant chupa chups, which becomes the visual protagonist and a metaphor for a surreal, playful, and unconventional world. The strength of the project lies in its vivid colors, which transform every scene into an immersive cinematic experience."
+    },
+    {
+      "title": "Highlights",
+      "videoURL": "https://youtu.be/c4sx3GvcSqg",
+      "youtubeID": "c4sx3GvcSqg",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Showreel 2025",
+      "client": "Career Selection",
+      "category": "Showreel",
+      "description": "Showreel 2025 presents a curated selection of the best works produced over recent years — including commercials, music videos, documentaries, and corporate projects. The edit highlights a cinematic style that combines visual storytelling, dynamic rhythm, and meticulous attention to detail. Through advanced filming techniques — including drone, gimbal, camera car, and natural light — the video synthesizes creativity and versatility in audiovisual production. A concentrated experience of visuals that conveys emotion and professionalism in every frame."
+    },
+    {
+      "title": "Identity",
+      "videoURL": "https://youtu.be/Em6IHSzgLSs",
+      "youtubeID": "Em6IHSzgLSs",
+      "year": "2024",
+      "role": "Creator",
+      "project": "Animation",
+      "client": "Self-Branding",
+      "category": "Animation",
+      "description": "Watch the animated 'bufi' logo come to life through particle effects. Created using the Particles plugin on After Effects, this project combines elegance and technology to deliver a dynamic and engaging animation."
+    }
   ]
 }
