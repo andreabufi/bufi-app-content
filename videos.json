@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "videos": [
+    { "title": "Time", "youtubeID": "SFFriFsS2j8" },
+    { "title": "Drive", "youtubeID": "0AJgz5Fi3Zg" },
+    { "title": "AI Vision", "youtubeID": "et6AQCqGdnQ" },
+    { "title": "Stone", "youtubeID": "rSPjO-dHESU" },
+    { "title": "Music", "youtubeID": "3mP0o443AsU" },
+    { "title": "Power", "youtubeID": "dD4reBGApCo" },
+    { "title": "Ink", "youtubeID": "OS3i1c9KlTA" },
+    { "title": "Fight", "youtubeID": "b6PTzpdcGfg" },
+    { "title": "Wild", "youtubeID": "q5FV1gpe_Fw" },
+    { "title": "Love", "youtubeID": "j6kqBWGSL5o" },
+    { "title": "Series", "youtubeID": "Te4WBcxwnvU" },
+    { "title": "Highlights", "youtubeID": "c4sx3GvcSqg" },
+    { "title": "Identity", "youtubeID": "Em6IHSzgLSs" }
+  ]
+}
