@@ -1,6 +1,17 @@
 {
-  "version": 3,
+  "version": 4,
   "videos": [
+    {
+      "title": "AI Spec Spot",
+      "videoURL": "https://youtu.be/1ZgxbIhdK7o",
+      "youtubeID": "1ZgxbIhdK7o",
+      "year": "2026",
+      "role": "Director",
+      "project": "Personal Project",
+      "client": "Personal Project",
+      "category": "AI / Brand",
+      "description": "A cinematic spec spot for Porsche, entirely generated with AI tools. Un concept commercial creato per esplorare il potenziale dell'AI generativa nella pubblicità automotive di alta gamma."
+    },
     {
       "title": "Time",
       "videoURL": "https://youtu.be/SFFriFsS2j8",
@@ -9,7 +20,7 @@
       "role": "Director",
       "project": "AI Cinematic Short",
       "client": "Personal Project",
-      "category": "AI / Brand",
+      "category": "Experimental",
       "description": "An AI-generated cinematic short that explores the timeless allure of iconic design through the lens of artificial intelligence."
     },
     {
@@ -21,7 +32,7 @@
       "project": "Brand Film",
       "client": "Personal Project",
       "category": "Brand",
-      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting, capturing the car in motion with smooth footage shot using an onboard camera. The opening sequence highlights the vehicle's details, emphasizing its design, lines, and technology. Fast-paced and engaging editing conveys a captivating, modern atmosphere — showcasing the Audi Q3's performance, style, and innovation. A blend of elegance and dynamism for car enthusiasts and fans of high-quality audiovisual productions."
+      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting."
     },
     {
       "title": "AI Vision",
@@ -32,10 +43,10 @@
       "project": "Experimental",
       "client": "Personal Project",
       "category": "Experimental",
-      "description": "A unique visual experience, created by combining cinema, digital art, and artificial intelligence: impossible streets, moving museums, surreal creatures, and scenes that defy all logic. This video is a journey through chaos and order, light and shadow, the sacred and the profane. Perfect for those who love digital art, surrealism, and visual storytelling."
+      "description": "A unique visual experience combining cinema, digital art, and artificial intelligence."
     },
     {
-      "title": "Marble",
+      "title": "Stone",
       "videoURL": "https://youtu.be/rSPjO-dHESU",
       "youtubeID": "rSPjO-dHESU",
       "year": "2025",
@@ -43,7 +54,7 @@
       "project": "Corporate Video",
       "client": "CITCO",
       "category": "Brand",
-      "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail, technological innovation, and international vision. The production process is transformed into an emotional experience, celebrating a material with a history spanning millennia that is reborn as design excellence."
+      "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
     },
     {
       "title": "Music",
@@ -54,7 +65,18 @@
       "project": "Music Video",
       "client": "Independent Artist",
       "category": "Music",
-      "description": "A road trip storytelling music video that captures the rhythm of motion and the poetry of open landscapes. Shot with cinematic precision, the video weaves together intimate moments and sweeping vistas, transforming the journey itself into the heartbeat of the song. A visual companion built on freedom, texture, and emotional resonance."
+      "description": "A road trip storytelling music video that captures the rhythm of motion."
+    },
+    {
+      "title": "VideoClip",
+      "videoURL": "https://youtu.be/NpYk1UG2-CY",
+      "youtubeID": "NpYk1UG2-CY",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Music Video",
+      "client": "T-EST Music",
+      "category": "Music",
+      "description": "An introspective journey between melancholy and self-awareness, where the void left by an absence becomes a reflection of an inner search. Produced by T-EST Music, the track explores the difficulty of finding oneself when one loses one's way and the heart learns to be alone, even in a different place."
     },
     {
       "title": "Power",
@@ -65,7 +87,7 @@
       "project": "Video Presentation",
       "client": "Motorparts",
       "category": "Brand",
-      "description": "Discover the Motorparts stand at EICMA Milan, the international event dedicated to the world of two-wheel vehicles. An exhibition area rich in innovation, technology, and design that celebrates the passion for motorcycles. This video offers a close-up exploration of the stand, focusing on the latest innovations: accessories, high-quality components, and cutting-edge solutions for the most demanding riders. From technical details to unique designs, Motorparts confirms itself as a benchmark for two-wheel enthusiasts."
+      "description": "Discover the Motorparts stand at EICMA Milan."
     },
     {
       "title": "Ink",
@@ -76,7 +98,18 @@
       "project": "Promotional Video",
       "client": "Tattoo Studio",
       "category": "Underground",
-      "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship. Combining handheld camerawork with technically precise compositions, the video captures the authentic atmosphere of tattoo culture through a confident, professional editing style. Every frame reflects the intimate ritual of body art — where ink, skin, and identity converge into a singular visual statement."
+      "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
+    },
+    {
+      "title": "Tattoo",
+      "videoURL": "https://youtu.be/bRmsT5hRA-E",
+      "youtubeID": "bRmsT5hRA-E",
+      "year": "2022",
+      "role": "Filmmaker",
+      "project": "Audiovisual Production",
+      "client": "H2O Tattoo",
+      "category": "Underground",
+      "description": "Welcome to the world of H2O Tattoo Studio, Verona's premier destination for high-quality tattoos and piercings. In this video, you'll discover the creative heart of the studio, where art and professionalism come together to create unique, personalized pieces."
     },
     {
       "title": "Fight",
@@ -87,7 +120,18 @@
       "project": "Promotional Video",
       "client": "Speri Fight Club",
       "category": "Sports",
-      "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination, refining his skills in one of the most prestigious environments for boxing. Every training session is a battle, every challenge a step toward his ultimate goal: surpassing his own limits and leaving a mark in the world of MMA."
+      "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination."
+    },
+    {
+      "title": "Training",
+      "videoURL": "https://youtu.be/Sl5Dn_JADGM",
+      "youtubeID": "Sl5Dn_JADGM",
+      "year": "2022",
+      "role": "Filmmaker",
+      "project": "Cinematic Training Film",
+      "client": "Aurora MMA",
+      "category": "Sports",
+      "description": "Inside the cage, every strike is a choice. Every breath, a decision. A cinematic training film shot at Aurora MMA in Rome, featuring professional fighter Pietro Penini training alongside Lorenzo Borgomeo."
     },
     {
       "title": "Wild",
@@ -98,7 +142,7 @@
       "project": "Short Film Trailer",
       "client": "Scuderia Gardesana",
       "category": "Nature",
-      "description": "A visual journey that celebrates the beauty, strength, and grace of the horses raised by Scuderia Gardesana — a tribute to the passion and care that accompany every step of this journey."
+      "description": "A visual journey that celebrates the beauty, strength, and grace of horses."
     },
     {
       "title": "Love",
@@ -109,7 +153,18 @@
       "project": "Wedding Trailer",
       "client": "Private Commission",
       "category": "Wedding",
-      "description": "A cinematic wedding trailer crafted to capture the depth and intimacy of two souls becoming one. Through a refined visual approach, the film transforms genuine emotion into timeless imagery — preserving the spontaneous moments, the meaningful glances, and the quiet beauty of love in its purest form. A professional production where every frame becomes a memory worth revisiting."
+      "description": "A cinematic wedding trailer crafted to capture the depth and intimacy of two souls becoming one."
+    },
+    {
+      "title": "Masai Mara",
+      "videoURL": "https://youtu.be/2_jfwkPOrCU",
+      "youtubeID": "2_jfwkPOrCU",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Documentary Film",
+      "client": "Self Produced",
+      "category": "Documentary",
+      "description": "The film opens with images of the Maasai tribe: men, women, and children living according to age-old traditions, in harmony with nature. The camera then shifts to the African savanna, with its boundless landscapes and wildlife. Every shot becomes a poetic fragment: the slow breath of the earth, the ancestral sounds, the dance of light across the landscape."
     },
     {
       "title": "Series",
@@ -120,7 +175,18 @@
       "project": "Promotional Video — Episodes",
       "client": "Editorial",
       "category": "Documentary",
-      "description": "'LILLY — Episode 01' is the first chapter of a visual series that portrays Lidia's everyday life through an intimate and authentic lens. Shot entirely with handheld camerawork, the video stands out for its underground style — built on spontaneous framing, realistic details, and strong emotional impact. A symbolic element accompanies the narrative: a giant chupa chups, which becomes the visual protagonist and a metaphor for a surreal, playful, and unconventional world. The strength of the project lies in its vivid colors, which transform every scene into an immersive cinematic experience."
+      "description": "LILLY — Episode 01 is the first chapter of a visual series."
+    },
+    {
+      "title": "Parking Lot",
+      "videoURL": "https://youtu.be/O5PYIXyfF4w",
+      "youtubeID": "O5PYIXyfF4w",
+      "year": "2025",
+      "role": "Director",
+      "project": "Documentary",
+      "client": "Personal Project",
+      "category": "Documentary",
+      "description": "In this documentary, I take you inside the heart and soul of a vibrant, living project. Through cinematic footage, candid moments, and intimate interviews with the key figures of this scene."
     },
     {
       "title": "Highlights",
@@ -131,7 +197,18 @@
       "project": "Showreel 2025",
       "client": "Career Selection",
       "category": "Showreel",
-      "description": "Showreel 2025 presents a curated selection of the best works produced over recent years — including commercials, music videos, documentaries, and corporate projects. The edit highlights a cinematic style that combines visual storytelling, dynamic rhythm, and meticulous attention to detail. Through advanced filming techniques — including drone, gimbal, camera car, and natural light — the video synthesizes creativity and versatility in audiovisual production. A concentrated experience of visuals that conveys emotion and professionalism in every frame."
+      "description": "Showreel 2025 presents a curated selection of the best works."
+    },
+    {
+      "title": "Showreel",
+      "videoURL": "https://youtu.be/0MIIAfv92y4",
+      "youtubeID": "0MIIAfv92y4",
+      "year": "2022",
+      "role": "Filmmaker",
+      "project": "Showreel",
+      "client": "Personal Project",
+      "category": "Showreel",
+      "description": "A journey through images, emotions, and creativity. Every project tells a story; every shot has a soul. From production to post-production, my goal is to turn ideas into impactful videos."
     },
     {
       "title": "Fashion",
@@ -153,7 +230,7 @@
       "project": "Animation",
       "client": "Self-Branding",
       "category": "Animation",
-      "description": "Watch the animated 'bufi' logo come to life through particle effects. Created using the Particles plugin on After Effects, this project combines elegance and technology to deliver a dynamic and engaging animation."
+      "description": "Watch the animated 'bufi' logo come to life through particle effects."
     },
     {
       "title": "Cartoon",
@@ -165,17 +242,6 @@
       "client": "Personal Project",
       "category": "Cartoon",
       "description": "In this animated film, we'll discover that every animal has a secret: a special soul that connects it to the earth and the sky. Follow the elephant, the lion, the buffalo, the leopard, and the rhinoceros on a breathtaking visual journey—perfect as a bedtime story or for learning the importance of harmony and respect for every living creature."
-    },
-    {
-      "title": "PL Fam",
-      "videoURL": "https://youtu.be/O5PYIXyfF4w",
-      "youtubeID": "O5PYIXyfF4w",
-      "year": "2025",
-      "role": "Director",
-      "project": "Documentary",
-      "client": "Personal Project",
-      "category": "Documentary",
-      "description": "In this documentary, I take you inside the heart and soul of a vibrant, living project. Through cinematic footage, candid moments, and intimate interviews with the key figures of this scene."
     }
   ]
 }
