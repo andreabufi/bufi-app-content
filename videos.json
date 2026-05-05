@@ -154,6 +154,15 @@
       "client": "Self-Branding",
       "category": "Animation",
       "description": "Watch the animated 'bufi' logo come to life through particle effects. Created using the Particles plugin on After Effects, this project combines elegance and technology to deliver a dynamic and engaging animation."
+    },
+    {
+      "title": "Cartoon",
+      "videoURL": "https://youtu.be/r0Vj-aFVszM",
+      "youtubeID": "r0Vj-aFVszM",
+      "year": "2026",
+      "role": "Director",
+      "project": "Animated Short",
+      "client": "Personal Project",
+      "category": "Cartoon",
+      "description": "In this animated film, we'll discover that every animal has a secret: a special soul that connects it to the earth and the sky. Follow the elephant, the lion, the buffalo, the leopard, and the rhinoceros on a breathtaking visual journey—perfect as a bedtime story or for learning the importance of harmony and respect for every living creature."
     }
-  ]
-}
