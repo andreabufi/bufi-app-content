@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -206,7 +206,7 @@
       "year": "2025",
       "role": "Filmmaker",
       "project": "Spot",
-      "client": "Personal Project",
+      "client": "Adamello Magazine",
       "category": "Brand",
       "description": "Welcome to a sensory journey: "Living the Mountains is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
     },
