@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -100,6 +100,17 @@
       "category": "Underground",
       "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
     },
+     {
+      "title": "Tradition",
+      "videoURL": "https://youtu.be/J1n1DXrGGQQ",
+      "youtubeID": "J1n1DXrGGQQ",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional Video",
+      "client": "Turco",
+      "category": "Brand",
+      "description": "Sixteen seconds to tell the story of an icon: the Pandoro, Verona’s golden treasure. A star that lights up, a scent that fills the house, the magic of a tradition that returns every year, the same yet always new."
+    },
     {
       "title": "Tattoo",
       "videoURL": "https://youtu.be/bRmsT5hRA-E",
@@ -130,7 +141,7 @@
       "role": "Filmmaker",
       "project": "Music Video",
       "client": "Albe Dalla",
-      "category": "Videoclip",
+      "category": "Music",
       "description": "The video centers on a high-energy playback performance. The artist is front-and-center, delivering aggressive, fast-paced delivery directly into a wide-angle lens. The focus is on raw movement, energy, and intense expressions that drive the rhythm of the edit."
     },
     {
