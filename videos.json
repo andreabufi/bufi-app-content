@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -57,7 +57,7 @@
       "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
     },
     {
-      "title": "Music",
+      "title": "Never Again",
       "videoURL": "https://youtu.be/3mP0o443AsU",
       "youtubeID": "3mP0o443AsU",
       "year": "2025",
@@ -68,7 +68,7 @@
       "description": "A road trip storytelling music video that captures the rhythm of motion."
     },
     {
-      "title": "VideoClip",
+      "title": "Nessuno Come Te",
       "videoURL": "https://youtu.be/NpYk1UG2-CY",
       "youtubeID": "NpYk1UG2-CY",
       "year": "2026",
@@ -100,6 +100,17 @@
       "category": "Underground",
       "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
     },
+     {
+      "title": "Hot Shot",
+      "videoURL": "https://youtu.be/gUI2qvUzr6Y",
+      "youtubeID": "gUI2qvUzr6Y",
+      "year": "2023",
+      "role": "Filmmaker",
+      "project": "Music Video",
+      "client": "Black T",
+      "category": "Music",
+      "description": "“HOTSHOT” is a trap music video by Verona-based rapper Black T, characterized by his signature green color, which dominates the visual aesthetic. The video combines urban and dynamic atmospheres with creative VFX effects—such as fire and digital tears—and transitions typical of American trap music videos. The footage spans various locations, including a studio, a home, and the street, creating a fast-paced and engaging rhythm. Each scene emphasizes Black T’s energy and unique style, offering an intense and original visual experience that captures the contemporary spirit of trap music."
+    },
     {
       "title": "Tattoo",
       "videoURL": "https://youtu.be/bRmsT5hRA-E",
@@ -121,6 +132,17 @@
       "client": "Speri Fight Club",
       "category": "Sports",
       "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination."
+    },
+    {
+      "title": "Vita da Rockstar",
+      "videoURL": "https://youtu.be/pr2qMM2iEBQ",
+      "youtubeID": "pr2qMM2iEBQ",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Music Video",
+      "client": "Albe Dalla",
+      "category": "Videoclip",
+      "description": "The video centers on a high-energy playback performance. The artist is front-and-center, delivering aggressive, fast-paced delivery directly into a wide-angle lens. The focus is on raw movement, energy, and intense expressions that drive the rhythm of the edit."
     },
     {
       "title": "Training",
