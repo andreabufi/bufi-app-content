@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -53,7 +53,7 @@
       "role": "Filmmaker",
       "project": "Corporate Video",
       "client": "CITCO",
-      "category": "Brand",
+      "category": "Corporate",
       "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
     },
     {
@@ -163,7 +163,7 @@
       "role": "Filmmaker",
       "project": "Short Film Trailer",
       "client": "Scuderia Gardesana",
-      "category": "Nature",
+      "category": "Documentary",
       "description": "A visual journey that celebrates the beauty, strength, and grace of horses."
     },
     {
@@ -198,6 +198,17 @@
       "client": "Editorial",
       "category": "Documentary",
       "description": "LILLY — Episode 01 is the first chapter of a visual series."
+    },
+    {
+      "title": "Adamello",
+      "videoURL": "https://youtu.be/c8quNJal-Ts",
+      "youtubeID": "c8quNJal-Ts",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Spot",
+      "client": "Personal Project",
+      "category": "Brand",
+      "description": "Welcome to a sensory journey: "Living the Mountains" is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
     },
     {
       "title": "Parking Lot",
