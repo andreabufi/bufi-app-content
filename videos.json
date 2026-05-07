@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -208,7 +208,7 @@
       "project": "Spot",
       "client": "Personal Project",
       "category": "Brand",
-      "description": "Welcome to a sensory journey: "Living the Mountains" is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
+      "description": "Welcome to a sensory journey: "Living the Mountains is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
     },
     {
       "title": "Parking Lot",
