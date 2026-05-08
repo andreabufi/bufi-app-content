@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -77,6 +77,17 @@
       "client": "Independent Artist",
       "category": "Music",
       "description": "A road trip storytelling music video that captures the rhythm of motion."
+    },
+     {
+      "title": "Trainer",
+      "videoURL": "https://youtu.be/NJLwIG0QZbw",
+      "youtubeID": "NJLwIG0QZbw",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional",
+      "client": "Camilla",
+      "category": "Sports",
+      "description": "An explosive mix of functional exercises and athletic movements captured in a unique style that highlights every movement, every effort, and every moment of focus. This video isn’t just a workout—it’s a visual experience that motivates and inspires."
     },
     {
       "title": "Nessuno Come Te",
