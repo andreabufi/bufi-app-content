@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -55,6 +55,17 @@
       "client": "CITCO",
       "category": "Brand",
       "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
+    },
+    {
+      "title": "Opel",
+      "videoURL": "https://youtu.be/MOdng2m1HB8",
+      "youtubeID": "MOdng2m1HB8",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Spot",
+      "client": "Square Marketing",
+      "category": "Brand",
+      "description": "Welcome aboard the New Opel Grandland. In this video, the team at Auto Vighini Verona takes you on a tour of the SUV that combines bold design with cutting-edge German technology."
     },
     {
       "title": "Never Again",
