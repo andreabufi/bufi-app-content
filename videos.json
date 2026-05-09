@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -297,6 +297,17 @@
       "client": "Personal Project",
       "category": "Cartoon",
       "description": "In this animated film, we'll discover that every animal has a secret: a special soul that connects it to the earth and the sky. Follow the elephant, the lion, the buffalo, the leopard, and the rhinoceros on a breathtaking visual journey—perfect as a bedtime story or for learning the importance of harmony and respect for every living creature."
+    },
+    {
+      "title": "Garden",
+      "videoURL": "https://youtu.be/OirIrNRq7_E",
+      "youtubeID": "OirIrNRq7_E",
+      "year": "2021",
+      "role": "Filmmaker",
+      "project": "Promotional",
+      "client": "Giambenini",
+      "category": "Brand",
+      "description": "In the hills of Montericco, just outside Verona, the Giambenini team is working on a private villa, performing tree climbing and pruning on tall trees. Garden architecture, landscaping, and workplace safety as seen through the eyes of our tree climbers."
     }
   ]
 }
