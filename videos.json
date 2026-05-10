@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -11,28 +11,6 @@
       "client": "Personal Project",
       "category": "AI / Brand",
       "description": "An experimental, cinematic-style commercial for Porsche, created entirely using artificial intelligence tools. A conceptual commercial created to explore the potential of generative AI in high-end automotive advertising."
-    },
-    {
-      "title": "Time",
-      "videoURL": "https://youtu.be/SFFriFsS2j8",
-      "youtubeID": "SFFriFsS2j8",
-      "year": "2026",
-      "role": "Director",
-      "project": "AI Cinematic Short",
-      "client": "Personal Project",
-      "category": "Experimental",
-      "description": "An AI-generated cinematic short that explores the timeless allure of iconic design through the lens of artificial intelligence."
-    },
-    {
-      "title": "Drive",
-      "videoURL": "https://youtu.be/0AJgz5Fi3Zg",
-      "youtubeID": "0AJgz5Fi3Zg",
-      "year": "2025",
-      "role": "Filmmaker",
-      "project": "Brand Film",
-      "client": "Personal Project",
-      "category": "Brand",
-      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting."
     },
     {
       "title": "AI Vision",
@@ -55,6 +33,28 @@
       "client": "CITCO",
       "category": "Brand",
       "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
+    },
+     {
+      "title": "Drive",
+      "videoURL": "https://youtu.be/0AJgz5Fi3Zg",
+      "youtubeID": "0AJgz5Fi3Zg",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Brand Film",
+      "client": "Personal Project",
+      "category": "Brand",
+      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting."
+    },
+    {
+      "title": "Time",
+      "videoURL": "https://youtu.be/SFFriFsS2j8",
+      "youtubeID": "SFFriFsS2j8",
+      "year": "2026",
+      "role": "Director",
+      "project": "AI Cinematic Short",
+      "client": "Personal Project",
+      "category": "Experimental",
+      "description": "An AI-generated cinematic short that explores the timeless allure of iconic design through the lens of artificial intelligence."
     },
     {
       "title": "Opel",
@@ -132,6 +132,17 @@
       "client": "Turco",
       "category": "Brand",
       "description": "Sixteen seconds to tell the story of an icon: the Pandoro, Verona’s golden treasure. A star that lights up, a scent that fills the house, the magic of a tradition that returns every year, the same yet always new."
+    },
+    {
+      "title": "Events",
+      "videoURL": "https://youtu.be/IuZ0NT1Qv8Q",
+      "youtubeID": "IuZ0NT1Qv8Q",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Event Showcase",
+      "client": "La Nordica Extraflame",
+      "category": "Marketing",
+      "description": "A journey through warmth, design, and tradition: the La Nordica Extraflame booth at Progetto Fuoco 2026, the leading international trade show for biomass heating, held at Verona Fiere."
     },
     {
       "title": "Tattoo",
