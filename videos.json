@@ -1,16 +1,6 @@
 {
-  "version": 23,
+  "version": 24,
   "videos": [
-     {
-    "title": "Test Robusto",
-    "videoURL": "https://youtu.be/dQw4w9WgXcQ",
-    "youtubeID": "dQw4w9WgXcQ",
-    "year": "2026",
-    "role": "Test",
-    "project": "Test",
-    "client": "Test",
-    "category": "Test"
-    },
     {
       "title": "AI Spec Spot",
       "videoURL": "https://youtu.be/1ZgxbIhdK7o",
