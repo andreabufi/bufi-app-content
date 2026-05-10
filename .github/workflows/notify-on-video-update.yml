@@ -65,7 +65,7 @@ jobs:
             -H "Authorization: Key ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
             -d "{
               \"app_id\": \"${{ secrets.ONESIGNAL_APP_ID }}\",
-              \"included_segments\": [\"Subscribed Users\"],
+              \"included_segments\": [\"Total Subscriptions\"],
               \"headings\": {\"en\": \"New video on Bufi App 🎬\"},
               \"contents\": {\"en\": \"$MESSAGE\"},
               \"ios_badgeType\": \"Increase\",
