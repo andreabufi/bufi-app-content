@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -297,16 +297,6 @@
       "client": "Personal Project",
       "category": "AI / Fashion",
       "description": "A fashion video shoot featuring a hyper-realistic AI model, generated entirely using artificial intelligence. A visual experiment blending fashion, technology, and cinema, where every detail (skin, lighting, fabrics, and movement) has been crafted to look 100% real."
-    },
-    {
-      "title": "Street",
-      "videoURL": "https://youtu.be/0cuoWPyMtMw",
-      "youtubeID": "0cuoWPyMtMw",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Personal Project",
-      "category": "Fashion",
-      "description": "Explore the underground aesthetic in this new fashion cinematic film. A fusion of contemporary urban style and the dynamic language of music videos."
     },
     {
       "title": "Identity",
