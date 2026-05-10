@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -305,6 +305,7 @@
       "year": "2026",
       "role": "Filmmaker",
       "project": "Personal Project",
+      "client": "MB16",
       "category": "Fashion",
       "description": "Explore the underground aesthetic in this new fashion cinematic film. A fusion of contemporary urban style and the dynamic language of music videos."
     },
