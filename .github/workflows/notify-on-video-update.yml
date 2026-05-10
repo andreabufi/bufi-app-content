@@ -1,0 +1,69 @@
+name: Send Push Notification on Video Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'videos.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect newly added video
+        id: detect
+        run: |
+          # Get the latest added video from the JSON
+          # Compare with previous version of videos.json to find what's new
+          
+          if git show HEAD~1:videos.json > /tmp/old_videos.json 2>/dev/null; then
+            OLD_COUNT=$(jq 'length' /tmp/old_videos.json 2>/dev/null || echo 0)
+          else
+            OLD_COUNT=0
+          fi
+          
+          NEW_COUNT=$(jq 'length' videos.json)
+          
+          echo "Old count: $OLD_COUNT, New count: $NEW_COUNT"
+          
+          if [ "$NEW_COUNT" -gt "$OLD_COUNT" ]; then
+            # New video added — get the most recent one (last item)
+            TITLE=$(jq -r '.[-1].title // "New video"' videos.json)
+            CATEGORY=$(jq -r '.[-1].category // ""' videos.json)
+            echo "send_push=true" >> $GITHUB_OUTPUT
+            echo "title=$TITLE" >> $GITHUB_OUTPUT
+            echo "category=$CATEGORY" >> $GITHUB_OUTPUT
+          else
+            echo "No new video added — skipping push"
+            echo "send_push=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send OneSignal Push
+        if: steps.detect.outputs.send_push == 'true'
+        run: |
+          TITLE="${{ steps.detect.outputs.title }}"
+          CATEGORY="${{ steps.detect.outputs.category }}"
+          
+          if [ -n "$CATEGORY" ]; then
+            MESSAGE="$TITLE — $CATEGORY"
+          else
+            MESSAGE="$TITLE"
+          fi
+          
+          curl -X POST https://onesignal.com/api/v1/notifications \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -H "Authorization: Key ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
+            -d "{
+              \"app_id\": \"${{ secrets.ONESIGNAL_APP_ID }}\",
+              \"included_segments\": [\"Subscribed Users\"],
+              \"headings\": {\"en\": \"New video on Bufi App\"},
+              \"contents\": {\"en\": \"$MESSAGE\"},
+              \"ios_badgeType\": \"Increase\",
+              \"ios_badgeCount\": 1
+            }"
