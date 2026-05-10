@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -253,6 +253,17 @@
       "client": "Career Selection",
       "category": "Showreel",
       "description": "Showreel 2025 presents a curated selection of the best works."
+    },
+    {
+      "title": "Wedding",
+      "videoURL": "https://youtu.be/eR2bitV6NPk",
+      "youtubeID": "eR2bitV6NPk",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Wedding",
+      "client": "Leo & Chiara",
+      "category": "Wedding",
+      "description": "Before the big celebration, the real beginning. An intimate day with close family only for Leonardo & Chiara. A simple, honest day made of hugs and glances that need no words."
     },
     {
       "title": "Showreel",
