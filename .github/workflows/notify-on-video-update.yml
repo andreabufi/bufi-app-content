@@ -19,32 +19,56 @@ jobs:
       - name: Detect newly added video
         id: detect
         run: |
+          # Get old version of videos.json
           if git show HEAD~1:videos.json > /tmp/old_videos.json 2>/dev/null; then
             OLD_COUNT=$(jq '.videos | length' /tmp/old_videos.json 2>/dev/null || echo 0)
           else
+            echo "No previous version found"
             OLD_COUNT=0
+            echo "[]" > /tmp/old_youtube_ids.json
           fi
           
           NEW_COUNT=$(jq '.videos | length' videos.json)
           
-          echo "Old videos count: $OLD_COUNT"
-          echo "New videos count: $NEW_COUNT"
+          echo "Old count: $OLD_COUNT"
+          echo "New count: $NEW_COUNT"
           
-          if [ "$NEW_COUNT" -gt "$OLD_COUNT" ]; then
-            TITLE=$(jq -r '.videos[0].title // "New video"' videos.json)
-            CATEGORY=$(jq -r '.videos[0].category // ""' videos.json)
-            CLIENT=$(jq -r '.videos[0].client // ""' videos.json)
-            
-            echo "send_push=true" >> $GITHUB_OUTPUT
-            echo "title=$TITLE" >> $GITHUB_OUTPUT
-            echo "category=$CATEGORY" >> $GITHUB_OUTPUT
-            echo "client=$CLIENT" >> $GITHUB_OUTPUT
-            
-            echo "📢 New video detected: $TITLE ($CATEGORY)"
-          else
-            echo "ℹ️ No new video added — skipping push"
+          if [ "$NEW_COUNT" -le "$OLD_COUNT" ]; then
+            echo "ℹ️ No new video added (count did not grow) — skipping push"
             echo "send_push=false" >> $GITHUB_OUTPUT
+            exit 0
           fi
+          
+          # Get list of youtubeIDs in old version
+          if [ -f /tmp/old_videos.json ]; then
+            jq -r '.videos[].youtubeID' /tmp/old_videos.json > /tmp/old_ids.txt 2>/dev/null || touch /tmp/old_ids.txt
+          else
+            touch /tmp/old_ids.txt
+          fi
+          
+          # Find the youtubeID that exists in NEW but not in OLD
+          NEW_VIDEO=$(jq -c --slurpfile old /tmp/old_videos.json '
+            .videos | map(select(
+              .youtubeID as $id | 
+              ($old[0].videos // [] | map(.youtubeID) | index($id)) == null
+            )) | .[0] // empty
+          ' videos.json)
+          
+          if [ -z "$NEW_VIDEO" ] || [ "$NEW_VIDEO" = "null" ]; then
+            echo "⚠️ Count grew but no new youtubeID detected — skipping push"
+            echo "send_push=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          TITLE=$(echo "$NEW_VIDEO" | jq -r '.title // "New video"')
+          CATEGORY=$(echo "$NEW_VIDEO" | jq -r '.category // ""')
+          YOUTUBE_ID=$(echo "$NEW_VIDEO" | jq -r '.youtubeID // ""')
+          
+          echo "📢 New video detected: $TITLE ($CATEGORY) [$YOUTUBE_ID]"
+          
+          echo "send_push=true" >> $GITHUB_OUTPUT
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+          echo "category=$CATEGORY" >> $GITHUB_OUTPUT
 
       - name: Send OneSignal Push
         if: steps.detect.outputs.send_push == 'true'
