@@ -19,28 +19,30 @@ jobs:
       - name: Detect newly added video
         id: detect
         run: |
-          # Get the latest added video from the JSON
-          # Compare with previous version of videos.json to find what's new
-          
           if git show HEAD~1:videos.json > /tmp/old_videos.json 2>/dev/null; then
-            OLD_COUNT=$(jq 'length' /tmp/old_videos.json 2>/dev/null || echo 0)
+            OLD_COUNT=$(jq '.videos | length' /tmp/old_videos.json 2>/dev/null || echo 0)
           else
             OLD_COUNT=0
           fi
           
-          NEW_COUNT=$(jq 'length' videos.json)
+          NEW_COUNT=$(jq '.videos | length' videos.json)
           
-          echo "Old count: $OLD_COUNT, New count: $NEW_COUNT"
+          echo "Old videos count: $OLD_COUNT"
+          echo "New videos count: $NEW_COUNT"
           
           if [ "$NEW_COUNT" -gt "$OLD_COUNT" ]; then
-            # New video added — get the most recent one (last item)
-            TITLE=$(jq -r '.[-1].title // "New video"' videos.json)
-            CATEGORY=$(jq -r '.[-1].category // ""' videos.json)
+            TITLE=$(jq -r '.videos[0].title // "New video"' videos.json)
+            CATEGORY=$(jq -r '.videos[0].category // ""' videos.json)
+            CLIENT=$(jq -r '.videos[0].client // ""' videos.json)
+            
             echo "send_push=true" >> $GITHUB_OUTPUT
             echo "title=$TITLE" >> $GITHUB_OUTPUT
             echo "category=$CATEGORY" >> $GITHUB_OUTPUT
+            echo "client=$CLIENT" >> $GITHUB_OUTPUT
+            
+            echo "📢 New video detected: $TITLE ($CATEGORY)"
           else
-            echo "No new video added — skipping push"
+            echo "ℹ️ No new video added — skipping push"
             echo "send_push=false" >> $GITHUB_OUTPUT
           fi
 
@@ -50,20 +52,31 @@ jobs:
           TITLE="${{ steps.detect.outputs.title }}"
           CATEGORY="${{ steps.detect.outputs.category }}"
           
-          if [ -n "$CATEGORY" ]; then
+          if [ -n "$CATEGORY" ] && [ "$CATEGORY" != "null" ]; then
             MESSAGE="$TITLE — $CATEGORY"
           else
             MESSAGE="$TITLE"
           fi
           
-          curl -X POST https://onesignal.com/api/v1/notifications \
+          echo "📤 Sending push: $MESSAGE"
+          
+          RESPONSE=$(curl -s -X POST https://onesignal.com/api/v1/notifications \
             -H "Content-Type: application/json; charset=utf-8" \
             -H "Authorization: Key ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
             -d "{
               \"app_id\": \"${{ secrets.ONESIGNAL_APP_ID }}\",
               \"included_segments\": [\"Subscribed Users\"],
-              \"headings\": {\"en\": \"New video on Bufi App\"},
+              \"headings\": {\"en\": \"New video on Bufi App 🎬\"},
               \"contents\": {\"en\": \"$MESSAGE\"},
               \"ios_badgeType\": \"Increase\",
               \"ios_badgeCount\": 1
-            }"
+            }")
+          
+          echo "OneSignal response: $RESPONSE"
+          
+          if echo "$RESPONSE" | grep -q '"errors"'; then
+            echo "❌ Push failed"
+            exit 1
+          else
+            echo "✅ Push sent successfully"
+          fi
