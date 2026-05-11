@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "videos": [
     {
       "title": "AI Spec Spot",
@@ -55,6 +55,17 @@
       "client": "Personal Project",
       "category": "Experimental",
       "description": "An AI-generated cinematic short that explores the timeless allure of iconic design through the lens of artificial intelligence."
+    },
+    {
+      "title": "BTS",
+      "videoURL": "https://youtu.be/2Xgcp7Gsd1I",
+      "youtubeID": "2Xgcp7Gsd1I",
+      "year": "2023",
+      "role": "Filmmaker",
+      "project": "Behind The Scenes",
+      "client": "Son Of Wind",
+      "category": "Brand",
+      "description": "A behind-the-scenes look at the “Son of Wind” photo shoot in Florence, starring Andrea Denver. The styling, lighting, and energy of a day on set, as seen through the camera lens."
     },
     {
       "title": "Opel",
