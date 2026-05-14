@@ -1,0 +1,95 @@
+name: Notify on Reel Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'reels.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect new reels
+        id: diff
+        run: |
+          set -e
+          
+          if [ ! -f reels.json ]; then
+            echo "reels.json not found, skipping"
+            echo "has_new=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          NEW_URLS=$(jq -r '.reels[].url' reels.json | sort)
+          
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            if git show HEAD~1:reels.json > /tmp/old_reels.json 2>/dev/null; then
+              OLD_URLS=$(jq -r '.reels[].url' /tmp/old_reels.json | sort)
+            else
+              OLD_URLS=""
+            fi
+          else
+            OLD_URLS=""
+          fi
+          
+          ADDED_URLS=$(comm -23 <(echo "$NEW_URLS") <(echo "$OLD_URLS"))
+          
+          if [ -z "$ADDED_URLS" ]; then
+            echo "No new reels detected"
+            echo "has_new=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          FIRST_NEW_URL=$(echo "$ADDED_URLS" | head -1)
+          FIRST_NEW_TITLE=$(jq -r --arg url "$FIRST_NEW_URL" '.reels[] | select(.url == $url) | .title' reels.json)
+          COUNT=$(echo "$ADDED_URLS" | wc -l | tr -d ' ')
+          
+          echo "Found $COUNT new reel(s). First: $FIRST_NEW_TITLE"
+          echo "has_new=true" >> $GITHUB_OUTPUT
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          echo "first_title=$FIRST_NEW_TITLE" >> $GITHUB_OUTPUT
+
+      - name: Send OneSignal push
+        if: steps.diff.outputs.has_new == 'true'
+        env:
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          COUNT: ${{ steps.diff.outputs.count }}
+          FIRST_TITLE: ${{ steps.diff.outputs.first_title }}
+        run: |
+          set -e
+          
+          if [ "$COUNT" = "1" ]; then
+            HEADING="New reel on Bufi App ✨"
+            CONTENT="$FIRST_TITLE"
+          else
+            HEADING="$COUNT new reels on Bufi App ✨"
+            CONTENT="Including $FIRST_TITLE"
+          fi
+          
+          PAYLOAD=$(jq -n \
+            --arg app_id "$ONESIGNAL_APP_ID" \
+            --arg heading "$HEADING" \
+            --arg content "$CONTENT" \
+            '{
+              app_id: $app_id,
+              included_segments: ["Total Subscriptions"],
+              headings: { en: $heading },
+              contents: { en: $content },
+              ios_badgeType: "Increase",
+              ios_badgeCount: 1
+            }')
+          
+          curl -sS -X POST "https://api.onesignal.com/notifications" \
+            -H "Authorization: Key $ONESIGNAL_REST_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD"
