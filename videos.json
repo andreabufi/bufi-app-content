@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 29,
   "videos": [
     {
       "title": "What if",
@@ -11,17 +11,6 @@
       "client": "Personal Project",
       "category": "AI / Brand",
       "description": "What would happen if Adidas decided to combine the ancient discipline of the Shaolin monks with urban aesthetics and the power of artificial intelligence?"
-    },
-    {
-      "title": "AI Spec Spot",
-      "videoURL": "https://youtu.be/1ZgxbIhdK7o",
-      "youtubeID": "1ZgxbIhdK7o",
-      "year": "2026",
-      "role": "Director",
-      "project": "Personal Project",
-      "client": "Personal Project",
-      "category": "AI / Brand",
-      "description": "An experimental, cinematic-style commercial for Porsche, created entirely using artificial intelligence tools. A conceptual commercial created to explore the potential of generative AI in high-end automotive advertising."
     },
     {
       "title": "Stone",
@@ -140,11 +129,22 @@
       "year": "2024",
       "role": "Filmmaker",
       "project": "Promotional Video",
-      "client": "Tattoo Studio",
+      "client": "Green Valley Tattoo",
       "category": "Underground",
       "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
     },
-     {
+    {
+      "title": "AI Spec Spot",
+      "videoURL": "https://youtu.be/1ZgxbIhdK7o",
+      "youtubeID": "1ZgxbIhdK7o",
+      "year": "2026",
+      "role": "Director",
+      "project": "Personal Project",
+      "client": "Personal Project",
+      "category": "AI / Brand",
+      "description": "An experimental, cinematic-style commercial for Porsche, created entirely using artificial intelligence tools. A conceptual commercial created to explore the potential of generative AI in high-end automotive advertising."
+    },
+    {
       "title": "Tradition",
       "videoURL": "https://youtu.be/J1n1DXrGGQQ",
       "youtubeID": "J1n1DXrGGQQ",
@@ -178,17 +178,6 @@
       "description": "Welcome to the world of H2O Tattoo Studio, Verona's premier destination for high-quality tattoos and piercings. In this video, you'll discover the creative heart of the studio, where art and professionalism come together to create unique, personalized pieces."
     },
     {
-      "title": "Fight",
-      "videoURL": "https://youtu.be/b6PTzpdcGfg",
-      "youtubeID": "b6PTzpdcGfg",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Promotional Video",
-      "client": "Speri Fight Club",
-      "category": "Sports",
-      "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination."
-    },
-    {
       "title": "Vita da Rockstar",
       "videoURL": "https://youtu.be/pr2qMM2iEBQ",
       "youtubeID": "pr2qMM2iEBQ",
@@ -211,7 +200,7 @@
       "description": "Inside the cage, every strike is a choice. Every breath, a decision. A cinematic training film shot at Aurora MMA in Rome, featuring professional fighter Pietro Penini training alongside Lorenzo Borgomeo."
     },
     {
-      "title": "Wild",
+      "title": "Horses",
       "videoURL": "https://youtu.be/q5FV1gpe_Fw",
       "youtubeID": "q5FV1gpe_Fw",
       "year": "2024",
@@ -264,6 +253,17 @@
       "client": "Adamello Magazine",
       "category": "Brand",
       "description": "Welcome to a sensory journey: 'Living the Mountains' is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
+    },
+    {
+      "title": "Fight",
+      "videoURL": "https://youtu.be/b6PTzpdcGfg",
+      "youtubeID": "b6PTzpdcGfg",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional Video",
+      "client": "Speri Fight Club",
+      "category": "Sports",
+      "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination."
     },
     {
       "title": "Parking Lot",
