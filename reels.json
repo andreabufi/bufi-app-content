@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "reels": [
     {
       "title": "Andy",
@@ -20,6 +20,10 @@
     {
       "title": "Marble",
       "url": "https://www.instagram.com/p/DTaHjTLjG-Y/"
+    },
+    {
+      "title": "Boutique",
+      "url": "https://www.instagram.com/p/DV9AQnxjPjd/"
     },
     {
       "title": "Hotel",
