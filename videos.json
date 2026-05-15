@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "videos": [
     {
       "title": "What if",
@@ -13,7 +13,7 @@
       "description": "What would happen if Adidas decided to combine the ancient discipline of the Shaolin monks with urban aesthetics and the power of artificial intelligence?"
     },
     {
-      "title": "Stone",
+      "title": "Marble",
       "videoURL": "https://youtu.be/rSPjO-dHESU",
       "youtubeID": "rSPjO-dHESU",
       "year": "2025",
