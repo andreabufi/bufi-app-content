@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "videos": [
     {
       "title": "Hotel",
@@ -220,17 +220,6 @@
       "client": "Scuderia Gardesana",
       "category": "Documentary",
       "description": "A visual journey that celebrates the beauty, strength, and grace of horses."
-    },
-    {
-      "title": "Ancora Qui",
-      "videoURL": "https://youtu.be/gEHl4H9pPaY",
-      "youtubeID": "gEHl4H9pPaY",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Videoclip",
-      "client": "Studioventisette",
-      "category": "Music",
-      "description": "Nicolò Fagnani Music won the third edition of the Art of Love Award with his song Ancora qui, taking home the music video prize."
     },
     {
       "title": "Love",
