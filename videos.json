@@ -1,6 +1,17 @@
 {
-  "version": 32,
+  "version": 33,
   "videos": [
+    {
+      "title": "Hotel",
+      "videoURL": "https://youtu.be/ImpDc2IJbaw",
+      "youtubeID": "ImpDc2IJbaw",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Le Petit du Lac",
+      "category": "Turism",
+      "description": "A dream come true on Lake Garda, in Sirmione. Le Petit du Lac is a family-run B&B with a view directly overlooking the lake, where Italian hospitality meets the authentic beauty of the Pearl of Garda."
+    },
     {
       "title": "What if",
       "videoURL": "https://youtu.be/28AC1qHPU58",
