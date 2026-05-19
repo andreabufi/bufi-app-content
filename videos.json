@@ -1,6 +1,17 @@
 {
-  "version": 34,
+  "version": 35,
   "videos": [
+    {
+      "title": "MMA",
+      "videoURL": "https://youtu.be/uavVnrcZUZU",
+      "youtubeID": "uavVnrcZUZU",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Sports",
+      "description": "A day at an MMA gym in Brescia with three athletes from the Italian combat sports scene."
+    },
     {
       "title": "Hotel",
       "videoURL": "https://youtu.be/ImpDc2IJbaw",
@@ -264,17 +275,6 @@
       "client": "Adamello Magazine",
       "category": "Brand",
       "description": "Welcome to a sensory journey: 'Living the Mountains' is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
-    },
-    {
-      "title": "Fight",
-      "videoURL": "https://youtu.be/b6PTzpdcGfg",
-      "youtubeID": "b6PTzpdcGfg",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Promotional Video",
-      "client": "Speri Fight Club",
-      "category": "Sports",
-      "description": "In the heart of Verona, at Speri Fight Club, Pietro trains with discipline and determination."
     },
     {
       "title": "Parking Lot",
