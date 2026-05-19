@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "videos": [
     {
       "title": "MMA",
@@ -319,6 +319,17 @@
       "client": "Personal Project",
       "category": "Showreel",
       "description": "A journey through images, emotions, and creativity. Every project tells a story; every shot has a soul. From production to post-production, my goal is to turn ideas into impactful videos."
+    },
+    {
+      "title": "Bodywork",
+      "videoURL": "https://youtu.be/9qs4O36xoMI",
+      "youtubeID": "9qs4O36xoMI",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Cars & Engines",
+      "client": "Carrozzeria Speri",
+      "category": "Engines",
+      "description": "A trusted name in the Verona area for years, Carrozzeria Speri combines traditional craftsmanship with modern technology to offer a full range of services: from post-accident repairs and oven-baked painting to cosmetic restoration and handling of insurance claims."
     },
     {
       "title": "Fashion",
