@@ -1,6 +1,28 @@
 {
-  "version": 36,
+  "version": 37,
   "videos": [
+     {
+      "title": "Intimate",
+      "videoURL": "https://youtu.be/T_tKEH-Apd8",
+      "youtubeID": "T_tKEH-Apd8",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Fashion",
+      "description": "An intimate cinematic edit - exploring light, texture and emotion in a fashion editorial atmosphere."
+    },
+    {
+      "title": "BSZ",
+      "videoURL": "https://youtu.be/DFgjPguYGM4",
+      "youtubeID": "DFgjPguYGM4",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Square Marketing",
+      "category": "Corporate",
+      "description": "A journey through the manufacturing process: from the selection of raw materials to the various stages of production, all the way to the finished ceramic product."
+    },
     {
       "title": "MMA",
       "videoURL": "https://youtu.be/uavVnrcZUZU",
