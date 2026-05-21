@@ -1,5 +1,5 @@
 {
-  "version": 38,
+  "version": 39,
   "videos": [
      {
       "title": "Intimate",
@@ -9,7 +9,7 @@
       "role": "Filmmaker",
       "project": "Audiovisual Project",
       "client": "Personal Project",
-      "category": "Fashion",
+      "category": "Cinematic",
       "description": "An intimate cinematic edit - exploring light, texture and emotion in a fashion editorial atmosphere."
     },
     {
@@ -22,6 +22,17 @@
       "client": "Personal Project",
       "category": "Sports",
       "description": "A day at an MMA gym in Brescia with three athletes from the Italian combat sports scene."
+    },
+    {
+      "title": "Bad Girl",
+      "videoURL": "https://youtu.be/o8exj8FLQlQ",
+      "youtubeID": "o8exj8FLQlQ",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Cinematic",
+      "description": "A masked figure. A silver bat. Gasoline on asphalt. A burnt-orange wreck about to disappear. Between street fashion and cinematic storytelling, a visual piece on impulse, identity and release."
     },
     {
       "title": "Hotel",
