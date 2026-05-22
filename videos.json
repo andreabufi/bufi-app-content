@@ -1,6 +1,17 @@
 {
-  "version": 40,
+  "version": 41,
   "videos": [
+     {
+      "title": "Rhythmic Cinema",
+      "videoURL": "https://youtu.be/N7pmGfYGi1o",
+      "youtubeID": "N7pmGfYGi1o",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Cinematic",
+      "description": "The dribble keeps time in black and white. The dancer answers in saturated color, locked to the beat of the cut."
+     },
      {
       "title": "She Didn't Hear",
       "videoURL": "https://youtu.be/Ia5rO5xw78o",
