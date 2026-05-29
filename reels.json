@@ -1,14 +1,14 @@
 {
-  "version": 6,
+  "version": 7,
   "reels": [
     {
       "title": "Cinematic",
       "url": "https://www.instagram.com/p/DYnLnpqoM85/"
     },
     {
-      "title": "Mma",
-      "url": "https://www.instagram.com/p/DYl9QW0tPSB/"
-    },
+      "title": "Hotel",
+      "url": "https://www.instagram.com/p/DYwyzthtN6Y/"
+    }
     {
       "title": "Andy",
       "url": "https://www.instagram.com/p/DWqa4RUDcXD/"
@@ -30,8 +30,8 @@
       "url": "https://www.instagram.com/p/DV9AQnxjPjd/"
     },
     {
-      "title": "Hotel",
-      "url": "https://www.instagram.com/p/DYejE0ytUzA/"
-    }
+      "title": "Mma",
+      "url": "https://www.instagram.com/p/DYl9QW0tPSB/"
+    },
   ]
 }
