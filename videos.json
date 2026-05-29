@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "videos": [
      {
       "title": "Nabbed",
@@ -34,6 +34,17 @@
       "category": "Cinematic",
       "description": "Two moments. One night. A world that keeps moving while another one breaks apart. She didn't hear a thing."
     },
+    {
+      "title": "MVP 2",
+      "videoURL": "https://youtu.be/8ZemjR3CnRw",
+      "youtubeID": "8ZemjR3CnRw",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "PL FAM",
+      "category": "Music",
+      "description": "MVP 2 is Albe Dalla's new Italian rap/trap hit, featuring an explosive collaboration with Gabrielito and Jo2nd."
+    }, 
     {
       "title": "Intimate",
       "videoURL": "https://youtu.be/T_tKEH-Apd8",
