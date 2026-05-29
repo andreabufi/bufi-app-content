@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 46,
   "videos": [
      {
       "title": "Nabbed",
@@ -211,6 +211,17 @@
       "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
     },
     {
+      "title": "Horses",
+      "videoURL": "https://youtu.be/q5FV1gpe_Fw",
+      "youtubeID": "q5FV1gpe_Fw",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Short Film Trailer",
+      "client": "Scuderia Gardesana",
+      "category": "Documentary",
+      "description": "A visual journey that celebrates the beauty, strength, and grace of horses."
+    },
+    {
       "title": "AI Spec Spot",
       "videoURL": "https://youtu.be/1ZgxbIhdK7o",
       "youtubeID": "1ZgxbIhdK7o",
@@ -275,17 +286,6 @@
       "client": "Aurora MMA",
       "category": "Sports",
       "description": "Inside the cage, every strike is a choice. Every breath, a decision. A cinematic training film shot at Aurora MMA in Rome, featuring professional fighter Pietro Penini training alongside Lorenzo Borgomeo."
-    },
-    {
-      "title": "Horses",
-      "videoURL": "https://youtu.be/q5FV1gpe_Fw",
-      "youtubeID": "q5FV1gpe_Fw",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Short Film Trailer",
-      "client": "Scuderia Gardesana",
-      "category": "Documentary",
-      "description": "A visual journey that celebrates the beauty, strength, and grace of horses."
     },
     {
       "title": "Love",
