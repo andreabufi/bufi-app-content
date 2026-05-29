@@ -376,26 +376,15 @@
       "description": "A journey through images, emotions, and creativity. Every project tells a story; every shot has a soul. From production to post-production, my goal is to turn ideas into impactful videos."
     },
     {
-      "title": "Bodywork",
-      "videoURL": "https://youtu.be/9qs4O36xoMI",
-      "youtubeID": "9qs4O36xoMI",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Cars & Engines",
-      "client": "Carrozzeria Speri",
-      "category": "Engines",
-      "description": "A trusted name in the Verona area for years, Carrozzeria Speri combines traditional craftsmanship with modern technology to offer a full range of services: from post-accident repairs and oven-baked painting to cosmetic restoration and handling of insurance claims."
-    },
-    {
-      "title": "Fashion",
-      "videoURL": "https://youtu.be/c_Tnx1WVLas",
-      "youtubeID": "c_Tnx1WVLas",
+      "title": "AI Easter",
+      "videoURL": "https://youtu.be/tiFptFxlWPQ",
+      "youtubeID": "tiFptFxlWPQ",
       "year": "2026",
       "role": "Director",
-      "project": "AI Fashion Experiment",
+      "project": "Documentary",
       "client": "Personal Project",
-      "category": "AI / Fashion",
-      "description": "A fashion video shoot featuring a hyper-realistic AI model, generated entirely using artificial intelligence. A visual experiment blending fashion, technology, and cinema, where every detail (skin, lighting, fabrics, and movement) has been crafted to look 100% real."
+      "category": "Documentary",
+      "description": "In this video, you’ll see how AI has reimagined the classic Easter Monday celebration, with incredible food and a unique atmosphere."
     },
     {
       "title": "Identity",
