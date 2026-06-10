@@ -1,6 +1,17 @@
 {
-  "version": 48,
+  "version": 49,
   "videos": [
+     {
+      "title": "FCM 30",
+      "videoURL": "https://youtu.be/nF7hq7pAwcg",
+      "youtubeID": "nF7hq7pAwcg",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "FCM",
+      "category": "Events",
+      "description": "A glimpse of one night told like a film. Thirty years, dressed in white, light and rhythm: the teaser of the short event film for FCM 30."
+     }, 
      {
       "title": "Do Not Kill",
       "videoURL": "https://youtu.be/JT1IUGVvXkg",
