@@ -1,6 +1,17 @@
 {
-  "version": 49,
+  "version": 50,
   "videos": [
+     {
+      "title": "Masai Mara",
+      "videoURL": "https://youtu.be/2_jfwkPOrCU",
+      "youtubeID": "2_jfwkPOrCU",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Documentary Film",
+      "client": "Self Produced",
+      "category": "Documentary",
+      "description": "The film opens with images of the Maasai tribe: men, women, and children living according to age-old traditions, in harmony with nature. The camera then shifts to the African savanna, with its boundless landscapes and wildlife. Every shot becomes a poetic fragment: the slow breath of the earth, the ancestral sounds, the dance of light across the landscape."
+     }, 
      {
       "title": "FCM 30",
       "videoURL": "https://youtu.be/nF7hq7pAwcg",
@@ -22,19 +33,8 @@
       "client": "ZØR",
       "category": "Music",
       "description": "This song is a political and humanitarian denunciation. It does not target any people, ethnicity or religion."
-     }, 
+     },
      {
-      "title": "Nabbed",
-      "videoURL": "https://youtu.be/XcFSBujTwdY",
-      "youtubeID": "XcFSBujTwdY",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Cinema International",
-      "category": "Cinematic",
-      "description": "New York City. A dealer's room. A mother's silence. A handoff in the wrong moment. Sometimes the city watches everything and waits."
-    }, 
-    {
       "title": "Rhythmic Cinema",
       "videoURL": "https://youtu.be/N7pmGfYGi1o",
       "youtubeID": "N7pmGfYGi1o",
@@ -44,30 +44,8 @@
       "client": "Personal Project",
       "category": "Cinematic",
       "description": "The dribble keeps time in black and white. The dancer answers in saturated color, locked to the beat of the cut."
-    },
-    {
-      "title": "She Didn't Hear",
-      "videoURL": "https://youtu.be/Ia5rO5xw78o",
-      "youtubeID": "Ia5rO5xw78o",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Personal Project",
-      "category": "Cinematic",
-      "description": "Two moments. One night. A world that keeps moving while another one breaks apart. She didn't hear a thing."
-    },
-    {
-      "title": "MVP 2",
-      "videoURL": "https://youtu.be/8ZemjR3CnRw",
-      "youtubeID": "8ZemjR3CnRw",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "PL FAM",
-      "category": "Music",
-      "description": "MVP 2 is Albe Dalla's new Italian rap/trap hit, featuring an explosive collaboration with Gabrielito and Jo2nd."
-    }, 
-    {
+     },
+     { 
       "title": "Intimate",
       "videoURL": "https://youtu.be/T_tKEH-Apd8",
       "youtubeID": "T_tKEH-Apd8",
@@ -77,85 +55,8 @@
       "client": "Personal Project",
       "category": "Cinematic",
       "description": "An intimate cinematic edit - exploring light, texture and emotion in a fashion editorial atmosphere."
-    },
-    {
-      "title": "MMA",
-      "videoURL": "https://youtu.be/uavVnrcZUZU",
-      "youtubeID": "uavVnrcZUZU",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Personal Project",
-      "category": "Sports",
-      "description": "A day at an MMA gym in Brescia with three athletes from the Italian combat sports scene."
-    },
-    {
-      "title": "Bad Girl",
-      "videoURL": "https://youtu.be/o8exj8FLQlQ",
-      "youtubeID": "o8exj8FLQlQ",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Personal Project",
-      "category": "Cinematic",
-      "description": "A masked figure. A silver bat. Gasoline on asphalt. A burnt-orange wreck about to disappear. Between street fashion and cinematic storytelling, a visual piece on impulse, identity and release."
-    },
-    {
-      "title": "Hotel",
-      "videoURL": "https://youtu.be/ImpDc2IJbaw",
-      "youtubeID": "ImpDc2IJbaw",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Le Petit du Lac",
-      "category": "Turism",
-      "description": "A dream comes true on Lake Garda, in Sirmione. Le Petit du Lac is a family-run B&B with a view directly overlooking the lake, where Italian hospitality meets the authentic beauty of the Pearl of Garda."
-    },
-    {
-      "title": "What if",
-      "videoURL": "https://youtu.be/28AC1qHPU58",
-      "youtubeID": "28AC1qHPU58",
-      "year": "2026",
-      "role": "Director",
-      "project": "Experimental Project",
-      "client": "Personal Project",
-      "category": "AI / Brand",
-      "description": "What would happen if Adidas decided to combine the ancient discipline of the Shaolin monks with urban aesthetics and the power of artificial intelligence?"
-    },
-    {
-      "title": "Marble",
-      "videoURL": "https://youtu.be/rSPjO-dHESU",
-      "youtubeID": "rSPjO-dHESU",
-      "year": "2025",
-      "role": "Filmmaker",
-      "project": "Corporate Video",
-      "client": "CITCO",
-      "category": "Corporate",
-      "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
-    },
-    {
-      "title": "AI Vision",
-      "videoURL": "https://youtu.be/et6AQCqGdnQ",
-      "youtubeID": "et6AQCqGdnQ",
-      "year": "2026",
-      "role": "Creator",
-      "project": "Experimental",
-      "client": "Personal Project",
-      "category": "Experimental",
-      "description": "A unique visual experience combining cinema, digital art, and artificial intelligence."
-    },
-    {
-      "title": "Drive",
-      "videoURL": "https://youtu.be/0AJgz5Fi3Zg",
-      "youtubeID": "0AJgz5Fi3Zg",
-      "year": "2025",
-      "role": "Filmmaker",
-      "project": "Brand Film",
-      "client": "Personal Project",
-      "category": "Brand",
-      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting."
-    },
-    {
+     },
+     {
       "title": "Time",
       "videoURL": "https://youtu.be/SFFriFsS2j8",
       "youtubeID": "SFFriFsS2j8",
@@ -165,52 +66,8 @@
       "client": "Personal Project",
       "category": "Experimental",
       "description": "An AI-generated cinematic short that explores the timeless allure of iconic design through the lens of artificial intelligence."
-    },
-    {
-      "title": "BTS",
-      "videoURL": "https://youtu.be/2Xgcp7Gsd1I",
-      "youtubeID": "2Xgcp7Gsd1I",
-      "year": "2023",
-      "role": "Filmmaker",
-      "project": "Behind The Scenes",
-      "client": "Son Of Wind",
-      "category": "Brand",
-      "description": "A behind-the-scenes look at the Son of Wind photo shoot in Florence, starring Andrea Denver. The styling, lighting, and energy of a day on set, as seen through the camera lens."
-    },
-    {
-      "title": "Opel",
-      "videoURL": "https://youtu.be/MOdng2m1HB8",
-      "youtubeID": "MOdng2m1HB8",
-      "year": "2025",
-      "role": "Filmmaker",
-      "project": "Spot",
-      "client": "Square Marketing",
-      "category": "Brand",
-      "description": "Welcome aboard the New Opel Grandland. In this video, the team at Auto Vighini Verona takes you on a tour of the SUV that combines bold design with cutting-edge German technology."
-    },
-    {
-      "title": "Never Again",
-      "videoURL": "https://youtu.be/3mP0o443AsU",
-      "youtubeID": "3mP0o443AsU",
-      "year": "2025",
-      "role": "Filmmaker",
-      "project": "Music Video",
-      "client": "Independent Artist",
-      "category": "Music",
-      "description": "A road trip storytelling music video that captures the rhythm of motion."
-    },
-    {
-      "title": "Trainer",
-      "videoURL": "https://youtu.be/NJLwIG0QZbw",
-      "youtubeID": "NJLwIG0QZbw",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Promotional",
-      "client": "Camilla",
-      "category": "Sports",
-      "description": "An explosive mix of functional exercises and athletic movements captured in a unique style that highlights every movement, every effort, and every moment of focus. This video isn’t just a workout—it’s a visual experience that motivates and inspires."
-    },
-    {
+     },
+     {
       "title": "Nessuno Come Te",
       "videoURL": "https://youtu.be/NpYk1UG2-CY",
       "youtubeID": "NpYk1UG2-CY",
@@ -220,30 +77,41 @@
       "client": "T-EST Music",
       "category": "Music",
       "description": "An introspective journey between melancholy and self-awareness, where the void left by an absence becomes a reflection of an inner search. Produced by T-EST Music, the track explores the difficulty of finding oneself when one loses one's way and the heart learns to be alone, even in a different place."
-    },
-    {
-      "title": "Power",
-      "videoURL": "https://youtu.be/dD4reBGApCo",
-      "youtubeID": "dD4reBGApCo",
+     },
+     {
+      "title": "Bad Girl",
+      "videoURL": "https://youtu.be/o8exj8FLQlQ",
+      "youtubeID": "o8exj8FLQlQ",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Cinematic",
+      "description": "A masked figure. A silver bat. Gasoline on asphalt. A burnt-orange wreck about to disappear. Between street fashion and cinematic storytelling, a visual piece on impulse, identity and release."
+     },
+     {
+      "title": "What if",
+      "videoURL": "https://youtu.be/28AC1qHPU58",
+      "youtubeID": "28AC1qHPU58",
+      "year": "2026",
+      "role": "Director",
+      "project": "Experimental Project",
+      "client": "Personal Project",
+      "category": "AI / Brand",
+      "description": "What would happen if Adidas decided to combine the ancient discipline of the Shaolin monks with urban aesthetics and the power of artificial intelligence?"
+     },
+     {
+      "title": "Marble",
+      "videoURL": "https://youtu.be/rSPjO-dHESU",
+      "youtubeID": "rSPjO-dHESU",
       "year": "2025",
       "role": "Filmmaker",
-      "project": "Video Presentation",
-      "client": "Motorparts",
-      "category": "Events",
-      "description": "Discover the Motorparts stand at EICMA Milan."
-    },
-    {
-      "title": "Ink",
-      "videoURL": "https://youtu.be/OS3i1c9KlTA",
-      "youtubeID": "OS3i1c9KlTA",
-      "year": "2024",
-      "role": "Filmmaker",
-      "project": "Promotional Video",
-      "client": "Green Valley Tattoo",
-      "category": "Underground",
-      "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
-    },
-    {
+      "project": "Corporate Video",
+      "client": "CITCO",
+      "category": "Corporate",
+      "description": "Through an elegant, cinematic visual style, the 2025 corporate video highlights CITCO's attention to detail."
+     },
+     {
       "title": "Horses",
       "videoURL": "https://youtu.be/q5FV1gpe_Fw",
       "youtubeID": "q5FV1gpe_Fw",
@@ -253,8 +121,129 @@
       "client": "Scuderia Gardesana",
       "category": "Documentary",
       "description": "A visual journey that celebrates the beauty, strength, and grace of horses."
-    },
-    {
+     },
+     {
+      "title": "AI Vision",
+      "videoURL": "https://youtu.be/et6AQCqGdnQ",
+      "youtubeID": "et6AQCqGdnQ",
+      "year": "2026",
+      "role": "Creator",
+      "project": "Experimental",
+      "client": "Personal Project",
+      "category": "Experimental",
+      "description": "A unique visual experience combining cinema, digital art, and artificial intelligence."
+     },
+     {
+      "title": "Drive",
+      "videoURL": "https://youtu.be/0AJgz5Fi3Zg",
+      "youtubeID": "0AJgz5Fi3Zg",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Brand Film",
+      "client": "Personal Project",
+      "category": "Brand",
+      "description": "The video showcases the Audi Q3 in a dynamic and elegant setting."
+     },
+     {
+      "title": "BTS",
+      "videoURL": "https://youtu.be/2Xgcp7Gsd1I",
+      "youtubeID": "2Xgcp7Gsd1I",
+      "year": "2023",
+      "role": "Filmmaker",
+      "project": "Behind The Scenes",
+      "client": "Son Of Wind",
+      "category": "Brand",
+      "description": "A behind-the-scenes look at the Son of Wind photo shoot in Florence, starring Andrea Denver. The styling, lighting, and energy of a day on set, as seen through the camera lens."
+     },
+     {
+      "title": "She Didn't Hear",
+      "videoURL": "https://youtu.be/Ia5rO5xw78o",
+      "youtubeID": "Ia5rO5xw78o",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Cinematic",
+      "description": "Two moments. One night. A world that keeps moving while another one breaks apart. She didn't hear a thing."
+     },
+     {
+      "title": "Opel",
+      "videoURL": "https://youtu.be/MOdng2m1HB8",
+      "youtubeID": "MOdng2m1HB8",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Spot",
+      "client": "Square Marketing",
+      "category": "Brand",
+      "description": "Welcome aboard the New Opel Grandland. In this video, the team at Auto Vighini Verona takes you on a tour of the SUV that combines bold design with cutting-edge German technology."
+     },
+     {
+      "title": "MVP 2",
+      "videoURL": "https://youtu.be/8ZemjR3CnRw",
+      "youtubeID": "8ZemjR3CnRw",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "PL FAM",
+      "category": "Music",
+      "description": "MVP 2 is Albe Dalla's new Italian rap/trap hit, featuring an explosive collaboration with Gabrielito and Jo2nd."
+     }, 
+     {
+      "title": "Hotel",
+      "videoURL": "https://youtu.be/ImpDc2IJbaw",
+      "youtubeID": "ImpDc2IJbaw",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Le Petit du Lac",
+      "category": "Turism",
+      "description": "A dream comes true on Lake Garda, in Sirmione. Le Petit du Lac is a family-run B&B with a view directly overlooking the lake, where Italian hospitality meets the authentic beauty of the Pearl of Garda."
+     },
+     {
+      "title": "Never Again",
+      "videoURL": "https://youtu.be/3mP0o443AsU",
+      "youtubeID": "3mP0o443AsU",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Music Video",
+      "client": "Independent Artist",
+      "category": "Music",
+      "description": "A road trip storytelling music video that captures the rhythm of motion."
+     },
+     {
+      "title": "Trainer",
+      "videoURL": "https://youtu.be/NJLwIG0QZbw",
+      "youtubeID": "NJLwIG0QZbw",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional",
+      "client": "Camilla",
+      "category": "Sports",
+      "description": "An explosive mix of functional exercises and athletic movements captured in a unique style that highlights every movement, every effort, and every moment of focus. This video isn’t just a workout—it’s a visual experience that motivates and inspires."
+     },
+     {
+      "title": "Power",
+      "videoURL": "https://youtu.be/dD4reBGApCo",
+      "youtubeID": "dD4reBGApCo",
+      "year": "2025",
+      "role": "Filmmaker",
+      "project": "Video Presentation",
+      "client": "Motorparts",
+      "category": "Events",
+      "description": "Discover the Motorparts stand at EICMA Milan."
+     },
+     {
+      "title": "Ink",
+      "videoURL": "https://youtu.be/OS3i1c9KlTA",
+      "youtubeID": "OS3i1c9KlTA",
+      "year": "2024",
+      "role": "Filmmaker",
+      "project": "Promotional Video",
+      "client": "Green Valley Tattoo",
+      "category": "Underground",
+      "description": "An underground-style promotional film that blends raw aesthetics with refined craftsmanship."
+     },
+     {
       "title": "AI Spec Spot",
       "videoURL": "https://youtu.be/1ZgxbIhdK7o",
       "youtubeID": "1ZgxbIhdK7o",
@@ -264,8 +253,8 @@
       "client": "Personal Project",
       "category": "AI / Brand",
       "description": "An experimental, cinematic-style commercial for Porsche, created entirely using artificial intelligence tools. A conceptual commercial created to explore the potential of generative AI in high-end automotive advertising."
-    },
-    {
+     },
+     {
       "title": "Tradition",
       "videoURL": "https://youtu.be/J1n1DXrGGQQ",
       "youtubeID": "J1n1DXrGGQQ",
@@ -286,8 +275,8 @@
       "client": "La Nordica Extraflame",
       "category": "Events",
       "description": "A journey through warmth, design, and tradition: the La Nordica Extraflame booth at Progetto Fuoco 2026, the leading international trade show for biomass heating, held at Verona Fiere."
-    },
-    {
+     },
+     {
       "title": "Tattoo",
       "videoURL": "https://youtu.be/bRmsT5hRA-E",
       "youtubeID": "bRmsT5hRA-E",
@@ -297,8 +286,8 @@
       "client": "H2O Tattoo",
       "category": "Underground",
       "description": "Welcome to the world of H2O Tattoo Studio, Verona's premier destination for high-quality tattoos and piercings. In this video, you'll discover the creative heart of the studio, where art and professionalism come together to create unique, personalized pieces."
-    },
-    {
+     },
+     {
       "title": "Vita da Rockstar",
       "videoURL": "https://youtu.be/pr2qMM2iEBQ",
       "youtubeID": "pr2qMM2iEBQ",
@@ -308,8 +297,8 @@
       "client": "Albe Dalla",
       "category": "Music",
       "description": "The video centers on a high-energy playback performance. The artist is front-and-center, delivering aggressive, fast-paced delivery directly into a wide-angle lens. The focus is on raw movement, energy, and intense expressions that drive the rhythm of the edit."
-    },
-    {
+     },
+     {
       "title": "Training",
       "videoURL": "https://youtu.be/Sl5Dn_JADGM",
       "youtubeID": "Sl5Dn_JADGM",
@@ -319,8 +308,8 @@
       "client": "Aurora MMA",
       "category": "Sports",
       "description": "Inside the cage, every strike is a choice. Every breath, a decision. A cinematic training film shot at Aurora MMA in Rome, featuring professional fighter Pietro Penini training alongside Lorenzo Borgomeo."
-    },
-    {
+     },
+     {
       "title": "Love",
       "videoURL": "https://youtu.be/j6kqBWGSL5o",
       "youtubeID": "j6kqBWGSL5o",
@@ -330,19 +319,8 @@
       "client": "Private Commission",
       "category": "Wedding",
       "description": "A cinematic wedding trailer crafted to capture the depth and intimacy of two souls becoming one."
-    },
-    {
-      "title": "Masai Mara",
-      "videoURL": "https://youtu.be/2_jfwkPOrCU",
-      "youtubeID": "2_jfwkPOrCU",
-      "year": "2025",
-      "role": "Filmmaker",
-      "project": "Documentary Film",
-      "client": "Self Produced",
-      "category": "Documentary",
-      "description": "The film opens with images of the Maasai tribe: men, women, and children living according to age-old traditions, in harmony with nature. The camera then shifts to the African savanna, with its boundless landscapes and wildlife. Every shot becomes a poetic fragment: the slow breath of the earth, the ancestral sounds, the dance of light across the landscape."
-    },
-    {
+     },
+     {
       "title": "Adamello",
       "videoURL": "https://youtu.be/c8quNJal-Ts",
       "youtubeID": "c8quNJal-Ts",
@@ -352,8 +330,8 @@
       "client": "Adamello Magazine",
       "category": "Brand",
       "description": "Welcome to a sensory journey: 'Living the Mountains' is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
-    },
-    {
+     },
+     {
       "title": "Parking Lot",
       "videoURL": "https://youtu.be/O5PYIXyfF4w",
       "youtubeID": "O5PYIXyfF4w",
@@ -363,8 +341,8 @@
       "client": "Personal Project",
       "category": "Documentary",
       "description": "In this documentary, I take you inside the heart and soul of a vibrant, living project. Through cinematic footage, candid moments, and intimate interviews with the key figures of this scene."
-    },
-    {
+     },
+     {
       "title": "Highlights",
       "videoURL": "https://youtu.be/c4sx3GvcSqg",
       "youtubeID": "c4sx3GvcSqg",
