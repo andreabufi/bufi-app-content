@@ -1,6 +1,17 @@
 {
-  "version": 50,
+  "version": 51,
   "videos": [
+     {
+      "title": "Casa Larimar",
+      "videoURL": "https://www.youtube.be/m3MERIuHqrE",
+      "youtubeID": "m3MERIuHqrE",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Food Film",
+      "client": "Personal Project",
+      "category": "Cinematic",
+      "description": "Casa Larimar, Verona. A visual story of what happens in the kitchen before a dish reaches the table: the gestures, the timing, the focus. No staging - just the chefs at work, filmed as it is."
+     }, 
      {
       "title": "Masai Mara",
       "videoURL": "https://youtu.be/2_jfwkPOrCU",
