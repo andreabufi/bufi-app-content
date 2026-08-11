@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "videos": [
      {
       "title": "Villa Turco Berti",
@@ -46,17 +46,6 @@
       "description": "A glimpse of one night told like a film. Thirty years, dressed in white, light and rhythm: the teaser of the short event film for FCM 30."
      }, 
      {
-      "title": "Do Not Kill",
-      "videoURL": "https://youtu.be/JT1IUGVvXkg",
-      "youtubeID": "JT1IUGVvXkg",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "ZØR",
-      "category": "Music",
-      "description": "This song is a political and humanitarian denunciation. It does not target any people, ethnicity or religion."
-     },
-     {
       "title": "Rhythmic Cinema",
       "videoURL": "https://youtu.be/N7pmGfYGi1o",
       "youtubeID": "N7pmGfYGi1o",
@@ -66,6 +55,17 @@
       "client": "Personal Project",
       "category": "Cinematic",
       "description": "The dribble keeps time in black and white. The dancer answers in saturated color, locked to the beat of the cut."
+     },
+     {
+      "title": "Do Not Kill",
+      "videoURL": "https://youtu.be/JT1IUGVvXkg",
+      "youtubeID": "JT1IUGVvXkg",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "ZØR",
+      "category": "Music",
+      "description": "This song is a political and humanitarian denunciation. It does not target any people, ethnicity or religion."
      },
      { 
       "title": "Intimate",
@@ -189,6 +189,17 @@
       "description": "Two moments. One night. A world that keeps moving while another one breaks apart. She didn't hear a thing."
      },
      {
+      "title": "Pietro KING KONG Penini",
+      "videoURL": "https://youtu.be/b6PTzpdcGfg",
+      "youtubeID": "b6PTzpdcGfg",
+      "year": "2022",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Pietro Penini",
+      "category": "Sports",
+      "description": "Pietro Penini, a professional MMA athlete who combines dedication, technique, and a passion for combat sports."
+     },
+     {
       "title": "Opel",
       "videoURL": "https://youtu.be/MOdng2m1HB8",
       "youtubeID": "MOdng2m1HB8",
@@ -198,28 +209,6 @@
       "client": "Square Marketing",
       "category": "Brand",
       "description": "Welcome aboard the New Opel Grandland. In this video, the team at Auto Vighini Verona takes you on a tour of the SUV that combines bold design with cutting-edge German technology."
-     },
-     {
-      "title": "MVP 2",
-      "videoURL": "https://youtu.be/8ZemjR3CnRw",
-      "youtubeID": "8ZemjR3CnRw",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "PL FAM",
-      "category": "Music",
-      "description": "MVP 2 is Albe Dalla's new Italian rap/trap hit, featuring an explosive collaboration with Gabrielito and Jo2nd."
-     }, 
-     {
-      "title": "Hotel",
-      "videoURL": "https://youtu.be/ImpDc2IJbaw",
-      "youtubeID": "ImpDc2IJbaw",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Le Petit du Lac",
-      "category": "Turism",
-      "description": "A dream comes true on Lake Garda, in Sirmione. Le Petit du Lac is a family-run B&B with a view directly overlooking the lake, where Italian hospitality meets the authentic beauty of the Pearl of Garda."
      },
      {
       "title": "Never Again",
@@ -232,6 +221,28 @@
       "category": "Music",
       "description": "A road trip storytelling music video that captures the rhythm of motion."
      },
+     {
+      "title": "Hotel",
+      "videoURL": "https://youtu.be/ImpDc2IJbaw",
+      "youtubeID": "ImpDc2IJbaw",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Le Petit du Lac",
+      "category": "Turism",
+      "description": "A dream comes true on Lake Garda, in Sirmione. Le Petit du Lac is a family-run B&B with a view directly overlooking the lake, where Italian hospitality meets the authentic beauty of the Pearl of Garda."
+     },
+     {
+      "title": "MVP 2",
+      "videoURL": "https://youtu.be/8ZemjR3CnRw",
+      "youtubeID": "8ZemjR3CnRw",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "PL FAM",
+      "category": "Music",
+      "description": "MVP 2 is Albe Dalla's new Italian rap/trap hit, featuring an explosive collaboration with Gabrielito and Jo2nd."
+     }, 
      {
       "title": "Trainer",
       "videoURL": "https://youtu.be/NJLwIG0QZbw",
@@ -288,15 +299,15 @@
       "description": "Sixteen seconds to tell the story of an icon: the Pandoro, Verona’s golden treasure. A star that lights up, a scent that fills the house, the magic of a tradition that returns every year, the same yet always new."
     },
     {
-      "title": "Flame",
-      "videoURL": "https://youtu.be/IuZ0NT1Qv8Q",
-      "youtubeID": "IuZ0NT1Qv8Q",
-      "year": "2026",
+      "title": "Training",
+      "videoURL": "https://youtu.be/Sl5Dn_JADGM",
+      "youtubeID": "Sl5Dn_JADGM",
+      "year": "2022",
       "role": "Filmmaker",
-      "project": "Event Showcase",
-      "client": "La Nordica Extraflame",
-      "category": "Events",
-      "description": "A journey through warmth, design, and tradition: the La Nordica Extraflame booth at Progetto Fuoco 2026, the leading international trade show for biomass heating, held at Verona Fiere."
+      "project": "Cinematic Training Film",
+      "client": "Aurora MMA",
+      "category": "Sports",
+      "description": "Inside the cage, every strike is a choice. Every breath, a decision. A cinematic training film shot at Aurora MMA in Rome, featuring professional fighter Pietro Penini training alongside Lorenzo Borgomeo."
      },
      {
       "title": "Tattoo",
@@ -321,18 +332,29 @@
       "description": "The video centers on a high-energy playback performance. The artist is front-and-center, delivering aggressive, fast-paced delivery directly into a wide-angle lens. The focus is on raw movement, energy, and intense expressions that drive the rhythm of the edit."
      },
      {
-      "title": "Training",
-      "videoURL": "https://youtu.be/Sl5Dn_JADGM",
-      "youtubeID": "Sl5Dn_JADGM",
+      "title": "Showreel",
+      "videoURL": "https://youtu.be/0MIIAfv92y4",
+      "youtubeID": "0MIIAfv92y4",
       "year": "2022",
       "role": "Filmmaker",
-      "project": "Cinematic Training Film",
-      "client": "Aurora MMA",
-      "category": "Sports",
-      "description": "Inside the cage, every strike is a choice. Every breath, a decision. A cinematic training film shot at Aurora MMA in Rome, featuring professional fighter Pietro Penini training alongside Lorenzo Borgomeo."
+      "project": "Showreel",
+      "client": "Personal Project",
+      "category": "Showreel",
+      "description": "A journey through images, emotions, and creativity. Every project tells a story; every shot has a soul. From production to post-production, my goal is to turn ideas into impactful videos."
      },
      {
-      "title": "Love",
+      "title": "Attention RMX",
+      "videoURL": "https://youtu.be/V62KbjQrRqw",
+      "youtubeID": "V62KbjQrRqw",
+      "year": "2023",
+      "role": "Filmmaker",
+      "project": "Music Video",
+      "client": "Albe Dalla",
+      "category": "Music",
+      "description": "The first official video for “Albe Dalla,” a re-upload of the original video."
+     },
+     {
+      "title": "Love Trailer",
       "videoURL": "https://youtu.be/j6kqBWGSL5o",
       "youtubeID": "j6kqBWGSL5o",
       "year": "2024",
@@ -341,6 +363,17 @@
       "client": "Private Commission",
       "category": "Wedding",
       "description": "A cinematic wedding trailer crafted to capture the depth and intimacy of two souls becoming one."
+     },
+     {
+      "title": "Amore a 4 zampe",
+      "videoURL": "https://youtu.be/HiWWrkEQjL0",
+      "youtubeID": "HiWWrkEQjL0",
+      "year": "2023",
+      "role": "Videomaker",
+      "project": "Documentary",
+      "client": "Studio27",
+      "category": "Documentary",
+      "description": "A heartfelt initiative dedicated to our animal friends, aimed at raising awareness about adopting dogs that have been abandoned or abused."
      },
      {
       "title": "Adamello",
@@ -354,7 +387,7 @@
       "description": "Welcome to a sensory journey: 'Living the Mountains' is Adamello Magazine’s feature dedicated to Ponte di Legno, a gem nestled in the Alps where tradition meets elegance."
      },
      {
-      "title": "Parking Lot",
+      "title": "Parking Lot Documentary",
       "videoURL": "https://youtu.be/O5PYIXyfF4w",
       "youtubeID": "O5PYIXyfF4w",
       "year": "2025",
@@ -376,7 +409,7 @@
       "description": "Showreel 2025 presents a curated selection of the best works."
     },
     {
-      "title": "Wedding Part 1",
+      "title": "Wedding Part I",
       "videoURL": "https://youtu.be/eR2bitV6NPk",
       "youtubeID": "eR2bitV6NPk",
       "year": "2025",
@@ -385,17 +418,6 @@
       "client": "Leo & Chiara",
       "category": "Wedding",
       "description": "Before the big celebration, the real beginning. An intimate day with close family only for Leonardo & Chiara. A simple, honest day made of hugs and glances that need no words."
-    },
-    {
-      "title": "Showreel",
-      "videoURL": "https://youtu.be/0MIIAfv92y4",
-      "youtubeID": "0MIIAfv92y4",
-      "year": "2022",
-      "role": "Filmmaker",
-      "project": "Showreel",
-      "client": "Personal Project",
-      "category": "Showreel",
-      "description": "A journey through images, emotions, and creativity. Every project tells a story; every shot has a soul. From production to post-production, my goal is to turn ideas into impactful videos."
     },
     {
       "title": "AI Easter",
@@ -409,11 +431,33 @@
       "description": "In this video, you’ll see how AI has reimagined the classic Easter Monday celebration, with incredible food and a unique atmosphere."
     },
     {
+      "title": "AB",
+      "videoURL": "https://youtu.be/CPMaFhkRx3E",
+      "youtubeID": "CPMaFhkRx3E",
+      "year": "2020",
+      "role": "Vfx Artist",
+      "project": "VFX",
+      "client": "Self-Branding",
+      "category": "Animation",
+      "description": "A creative interpretation of the initials 'ab' for Andrea Bufi."
+    },
+    {
+      "title": "I Fabris Parrucchieri",
+      "videoURL": "https://youtu.be/73KMCVOJRMQ",
+      "youtubeID": "73KMCVOJRMQ",
+      "year": "2021",
+      "role": "Videomaker",
+      "project": "Audiovisual Project",
+      "client": "Verona Model Agency",
+      "category": "Brand",
+      "description": "A message. An invitation. Time is running out. A story told through gestures, glances, and the little details that precede every important occasion."
+    },
+    {
       "title": "Identity",
       "videoURL": "https://youtu.be/Em6IHSzgLSs",
       "youtubeID": "Em6IHSzgLSs",
-      "year": "2024",
-      "role": "Creator",
+      "year": "2020",
+      "role": "Vfx Artist",
       "project": "Animation",
       "client": "Self-Branding",
       "category": "Animation",
@@ -429,6 +473,28 @@
       "client": "Personal Project",
       "category": "Cartoon",
       "description": "In this animated film, we'll discover that every animal has a secret: a special soul that connects it to the earth and the sky. Follow the elephant, the lion, the buffalo, the leopard, and the rhinoceros on a breathtaking visual journey—perfect as a bedtime story or for learning the importance of harmony and respect for every living creature."
+    }
+    {
+      "title": "Dietro Il Bancone",
+      "videoURL": "https://youtu.be/GNvt8lUk-ZM",
+      "youtubeID": "GNvt8lUk-ZM",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Personal Project",
+      "client": "La Bodeguita del Medio",
+      "category": "Documentary",
+      "description": "We follow Giovanni on his motorcycle ride to La Bodeguita del Medio, where night transforms the bar into a stage for stories, glances, and confidences."
+    }
+    {
+      "title": "On The Road",
+      "videoURL": "https://youtu.be/Fwq8-4nBZ9A",
+      "youtubeID": "Fwq8-4nBZ9A",
+      "year": "2013",
+      "role": "Videomaker",
+      "project": "Rap Video",
+      "client": "Jamil",
+      "category": "Music",
+      "description": "The official video for Jamil a re-upload of the original video 'On The Road' an his self-celebration and a challenge to the industry and colleagues."
     }
   ]
 }
