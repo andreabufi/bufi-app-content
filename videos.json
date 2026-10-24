@@ -1,5 +1,5 @@
 {
-  "version": 58,
+  "version": 59,
   "videos": [
      {
       "title": "Villa Turco Berti",
@@ -11,6 +11,17 @@
       "client": "Turco Berti",
       "category": "Cinematic",
       "description": "A cinematic tour of Villa Turco Berti a 17th-century boutique hotel & spa in the heart of Caldiero, just a few minutes from Verona."
+     },
+     {
+      "title": "HotShot",
+      "videoURL": "https://www.youtube.com/watch?v=gUI2qvUzr6Y",
+      "youtubeID": "gUI2qvUzr6Y",
+      "year": "2023",
+      "role": "Filmmaker",
+      "project": "Videoclip",
+      "client": "Black T",
+      "category": "Music",
+      "description": "Official music video for HotShot by rapper Black T, directed and edited by Andrea Bufi. Shot in Verona, the video blends raw urban energy with a cinematic look, combining dynamic camera work, bold color grading and [VFX / motion graphics] to bring the track’s attitude to life."
      }, 
      {
       "title": "Casa Larimar",
