@@ -13,17 +13,6 @@
       "description": "A cinematic tour of Villa Turco Berti a 17th-century boutique hotel & spa in the heart of Caldiero, just a few minutes from Verona."
      },
      {
-      "title": "HotShot",
-      "videoURL": "https://www.youtube.com/watch?v=gUI2qvUzr6Y",
-      "youtubeID": "gUI2qvUzr6Y",
-      "year": "2023",
-      "role": "Filmmaker",
-      "project": "Videoclip",
-      "client": "Black T",
-      "category": "Music",
-      "description": "Official music video for HotShot by rapper Black T, directed and edited by Andrea Bufi. Shot in Verona, the video blends raw urban energy with a cinematic look, combining dynamic camera work, bold color grading and [VFX / motion graphics] to bring the track’s attitude to life."
-     }, 
-     {
       "title": "Casa Larimar",
       "videoURL": "https://youtu.be/m3MERIuHqrE",
       "youtubeID": "m3MERIuHqrE",
@@ -77,17 +66,6 @@
       "client": "ZØR",
       "category": "Music",
       "description": "This song is a political and humanitarian denunciation. It does not target any people, ethnicity or religion."
-     },
-     { 
-      "title": "Intimate",
-      "videoURL": "https://youtu.be/T_tKEH-Apd8",
-      "youtubeID": "T_tKEH-Apd8",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Audiovisual Project",
-      "client": "Personal Project",
-      "category": "Cinematic",
-      "description": "An intimate cinematic edit - exploring light, texture and emotion in a fashion editorial atmosphere."
      },
      {
       "title": "Time",
@@ -177,6 +155,17 @@
       "category": "Brand",
       "description": "The video showcases the Audi Q3 in a dynamic and elegant setting."
      },
+     { 
+      "title": "Intimate",
+      "videoURL": "https://youtu.be/T_tKEH-Apd8",
+      "youtubeID": "T_tKEH-Apd8",
+      "year": "2026",
+      "role": "Filmmaker",
+      "project": "Audiovisual Project",
+      "client": "Personal Project",
+      "category": "Cinematic",
+      "description": "An intimate cinematic edit - exploring light, texture and emotion in a fashion editorial atmosphere."
+     },
      {
       "title": "BTS",
       "videoURL": "https://youtu.be/2Xgcp7Gsd1I",
@@ -188,6 +177,17 @@
       "category": "Brand",
       "description": "A behind-the-scenes look at the Son of Wind photo shoot in Florence, starring Andrea Denver. The styling, lighting, and energy of a day on set, as seen through the camera lens."
      },
+     {
+      "title": "HotShot",
+      "videoURL": "https://www.youtube.com/watch?v=gUI2qvUzr6Y",
+      "youtubeID": "gUI2qvUzr6Y",
+      "year": "2023",
+      "role": "Filmmaker",
+      "project": "Videoclip",
+      "client": "Black T",
+      "category": "Music",
+      "description": "Official music video for HotShot by rapper Black T, directed and edited by Andrea Bufi. Shot in Verona, the video blends raw urban energy with a cinematic look, combining dynamic camera work, bold color grading and [VFX / motion graphics] to bring the track’s attitude to life."
+     }, 
      {
       "title": "She Didn't Hear",
       "videoURL": "https://youtu.be/Ia5rO5xw78o",
