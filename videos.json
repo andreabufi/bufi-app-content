@@ -1,5 +1,5 @@
 {
-  "version": 60,
+  "version": 61,
   "videos": [
      {
       "title": "Villa Turco Berti",
@@ -484,17 +484,6 @@
       "client": "Personal Project",
       "category": "Cartoon",
       "description": "In this animated film, we'll discover that every animal has a secret: a special soul that connects it to the earth and the sky. Follow the elephant, the lion, the buffalo, the leopard, and the rhinoceros on a breathtaking visual journey—perfect as a bedtime story or for learning the importance of harmony and respect for every living creature."
-    },
-    {
-      "title": "Dietro Il Bancone",
-      "videoURL": "https://youtu.be/GNvt8lUk-ZM",
-      "youtubeID": "GNvt8lUk-ZM",
-      "year": "2026",
-      "role": "Filmmaker",
-      "project": "Short Film",
-      "client": "La Bodeguita del Medio",
-      "category": "Documentary",
-      "description": "We follow Giovanni on his motorcycle ride to La Bodeguita del Medio, where night transforms the bar into a stage for stories, glances, and confidences."
     },
     {
       "title": "On The Road",
